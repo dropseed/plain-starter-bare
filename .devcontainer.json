@@ -1,0 +1,21 @@
+{
+    "onCreateCommand": "./scripts/install",
+    "postAttachCommand": "bolt dev",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "app/templates/example.html",
+                "app/urls.py"
+            ]
+        }
+    },
+    "portsAttributes": {
+        "8000": {
+            "label": "Bolt Dev",
+            "onAutoForward": "openPreview"
+        }
+    },
+    "forwardPorts": [
+        8000
+    ]
+}
