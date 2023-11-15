@@ -5,7 +5,7 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = "~3.11"
+python = "^3.10"
 bolt = {git = "https://github.com/dropseed/bolt", branch = "main"}
 
 

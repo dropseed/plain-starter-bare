@@ -19,7 +19,7 @@ python-dotenv = "^1.0.0"
 type = "git"
 url = "https://github.com/dropseed/bolt"
 reference = "main"
-resolved_reference = "35560acb2d8064ea4da8154567f35839e1d20ecb"
+resolved_reference = "5dfd67378a2ea36359152570ca8a7930e61632f6"
 
 [[package]]
 name = "bolt-dev"
@@ -37,12 +37,13 @@ gunicorn = ">20"
 honcho = "^1.1.0"
 psycopg2-binary = "^2.9.3"
 requests = ">=2.0.0"
+tomli = {version = "^2.0.1", markers = "python_version < \"3.11\""}
 
 [package.source]
 type = "git"
 url = "https://github.com/dropseed/bolt"
 reference = "main"
-resolved_reference = "35560acb2d8064ea4da8154567f35839e1d20ecb"
+resolved_reference = "5dfd67378a2ea36359152570ca8a7930e61632f6"
 subdirectory = "bolt-dev"
 
 [[package]]
@@ -576,6 +577,17 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "tomli"
+version = "2.0.1"
+description = "A lil' TOML parser"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},
+    {file = "tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"},
+]
+
+[[package]]
 name = "urllib3"
 version = "2.1.0"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -593,5 +605,5 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = "~3.11"
-content-hash = "80e7a0915a03e8fa4b20e2afd1a1fa52c95461917af1de193fa185287cf04419"
+python-versions = "^3.10"
+content-hash = "0cf97635c4cab639cede453a1a74ca28133fbdb8e3c0746a18690d02890f3965"

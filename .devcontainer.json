@@ -1,5 +1,5 @@
 {
-    "postCreateCommand": "./scripts/install",
+    "postCreateCommand": "pipx install poetry && ./scripts/install",
     "postAttachCommand": "poetry run bolt dev",
     "customizations": {
         "codespaces": {
