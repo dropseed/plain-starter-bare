@@ -1,4 +1,8 @@
 #!/bin/sh -ex
+
+# Avoid race condition in git repo cloning
+poetry config installer.parallel false
+
 POETRY_VIRTUALENV_IN_PROJECT=true poetry install
 
 poetry run bolt pre-commit --install
