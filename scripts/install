@@ -1,0 +1,4 @@
+#!/bin/sh -ex
+POETRY_VIRTUALENV_IN_PROJECT=true poetry install
+
+poetry run bolt pre-commit --install
