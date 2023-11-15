@@ -1,6 +1,6 @@
 {
     "postCreateCommand": "./scripts/install",
-    "postAttachCommand": "bolt dev",
+    "postAttachCommand": "poetry run bolt dev",
     "customizations": {
         "codespaces": {
             "openFiles": [
