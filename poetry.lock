@@ -19,7 +19,7 @@ python-dotenv = "^1.0.0"
 type = "git"
 url = "https://github.com/dropseed/bolt"
 reference = "main"
-resolved_reference = "9411220db9abde7f5f5e37048126a425bee7b0a4"
+resolved_reference = "7a07a4bca77ccddd04cd91d730fa2e60f598db87"
 
 [[package]]
 name = "bolt-dev"
@@ -42,7 +42,7 @@ requests = ">=2.0.0"
 type = "git"
 url = "https://github.com/dropseed/bolt"
 reference = "main"
-resolved_reference = "9411220db9abde7f5f5e37048126a425bee7b0a4"
+resolved_reference = "7a07a4bca77ccddd04cd91d730fa2e60f598db87"
 subdirectory = "bolt-dev"
 
 [[package]]
