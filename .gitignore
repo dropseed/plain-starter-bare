@@ -10,4 +10,3 @@ __pycache__
 # env files
 /.env*
 !/.env.example
-!/.env*.encrypted
