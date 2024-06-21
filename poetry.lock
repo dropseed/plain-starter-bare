@@ -2,7 +2,7 @@
 
 [[package]]
 name = "bolt"
-version = "0.1.0"
+version = "0.0.0"
 description = ""
 optional = false
 python-versions = "^3.11"
@@ -18,12 +18,12 @@ python-dotenv = "^1.0.0"
 type = "git"
 url = "https://github.com/dropseed/bolt"
 reference = "main"
-resolved_reference = "fc258bd51ce0005a74c1817960e1ce375818f875"
+resolved_reference = "568576ec178042050c256f702d8ed5ef2a622ce5"
 subdirectory = "bolt"
 
 [[package]]
 name = "bolt-dev"
-version = "0.1.0"
+version = "0.0.0"
 description = "Work library for Bolt"
 optional = false
 python-versions = "^3.8"
@@ -42,7 +42,7 @@ requests = ">=2.0.0"
 type = "git"
 url = "https://github.com/dropseed/bolt"
 reference = "main"
-resolved_reference = "fc258bd51ce0005a74c1817960e1ce375818f875"
+resolved_reference = "568576ec178042050c256f702d8ed5ef2a622ce5"
 subdirectory = "bolt-dev"
 
 [[package]]
