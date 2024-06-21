@@ -6,7 +6,7 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-bolt = {git = "https://github.com/dropseed/bolt", branch = "main"}
+bolt = {git = "https://github.com/dropseed/bolt", branch = "main", subdirectory = "bolt"}
 
 [tool.poetry.group.dev.dependencies]
 bolt-dev = {git = "https://github.com/dropseed/bolt", branch = "main", subdirectory = "bolt-dev"}
