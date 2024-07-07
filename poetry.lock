@@ -317,45 +317,35 @@ name = "plain-dev"
 version = "0.0.0"
 description = "Work library for Plain"
 optional = false
-python-versions = "^3.8"
-files = []
-develop = false
+python-versions = "<4.0,>=3.8"
+files = [
+    {file = "plain_dev-0.0.0-py3-none-any.whl", hash = "sha256:f8917f0639acf7d61c66714d774c23421f685a285b89caf7abb99b95a2011152"},
+    {file = "plain_dev-0.0.0.tar.gz", hash = "sha256:18941b06e0019dd4a899d86c512e6be036b01e173509843f16f4d7617842e246"},
+]
 
 [package.dependencies]
 click = ">=8.0.0"
-debugpy = "^1.6.3"
+debugpy = ">=1.6.3,<2.0.0"
 gunicorn = ">20"
-honcho = "^1.1.0"
-psycopg2-binary = "^2.9.3"
+honcho = ">=1.1.0,<2.0.0"
+psycopg2-binary = ">=2.9.3,<3.0.0"
 requests = ">=2.0.0"
-
-[package.source]
-type = "git"
-url = "https://github.com/dropseed/plain"
-reference = "main"
-resolved_reference = "8ac110b6fcfafd83cd683e112276f685cce62445"
-subdirectory = "plain-dev"
 
 [[package]]
 name = "plainframework"
 version = "0.0.0"
 description = ""
 optional = false
-python-versions = "^3.11"
-files = []
-develop = false
+python-versions = "<4.0,>=3.11"
+files = [
+    {file = "plainframework-0.0.0-py3-none-any.whl", hash = "sha256:d1ccbc87a7992a27e1d360455bfcf5d97dc049f3cd176935abe60a2baf836e09"},
+    {file = "plainframework-0.0.0.tar.gz", hash = "sha256:e1b2b62690a7bd5e661c3438467df4f03610d355f5d9e1c928a955fe8a504cbf"},
+]
 
 [package.dependencies]
 click = ">=8.0.0"
-jinja2 = "^3.1.2"
-python-dotenv = "^1.0.0"
-
-[package.source]
-type = "git"
-url = "https://github.com/dropseed/plain"
-reference = "main"
-resolved_reference = "8ac110b6fcfafd83cd683e112276f685cce62445"
-subdirectory = "plain"
+jinja2 = ">=3.1.2,<4.0.0"
+python-dotenv = ">=1.0.0,<2.0.0"
 
 [[package]]
 name = "psycopg2-binary"
@@ -490,4 +480,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "7d2c9c92ac6745208bd2a790580e332b56dc7c432fc80379c848b4ee1feb74ab"
+content-hash = "016da0c72150ec58b35544fed5d1c1e84302bf6b544614b662bfda39ffc39c77"
