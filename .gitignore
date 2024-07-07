@@ -1,5 +1,5 @@
-# Bolt temporary files
-/.bolt
+# Plain temporary files
+/.plain
 
 # Python files
 __pycache__

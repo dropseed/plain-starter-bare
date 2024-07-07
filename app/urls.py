@@ -1,5 +1,5 @@
-from bolt.urls import path
-from bolt.views import View, TemplateView
+from plain.urls import path
+from plain.views import View, TemplateView
 
 
 class ExampleTemplateView(TemplateView):

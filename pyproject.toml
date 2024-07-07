@@ -6,10 +6,10 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-bolt = {git = "https://github.com/dropseed/bolt", branch = "main", subdirectory = "bolt"}
+plainframework = {git = "https://github.com/dropseed/plain", branch = "main", subdirectory = "plain"}
 
 [tool.poetry.group.dev.dependencies]
-bolt-dev = {git = "https://github.com/dropseed/bolt", branch = "main", subdirectory = "bolt-dev"}
+plain-dev = {git = "https://github.com/dropseed/plain", branch = "main", subdirectory = "plain-dev"}
 
 [build-system]
 requires = ["poetry-core"]
