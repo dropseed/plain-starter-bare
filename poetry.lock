@@ -314,13 +314,13 @@ files = [
 
 [[package]]
 name = "plain-dev"
-version = "0.0.0"
+version = "0.0.1"
 description = "Work library for Plain"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "plain_dev-0.0.0-py3-none-any.whl", hash = "sha256:f8917f0639acf7d61c66714d774c23421f685a285b89caf7abb99b95a2011152"},
-    {file = "plain_dev-0.0.0.tar.gz", hash = "sha256:18941b06e0019dd4a899d86c512e6be036b01e173509843f16f4d7617842e246"},
+    {file = "plain_dev-0.0.1-py3-none-any.whl", hash = "sha256:9b58804f829e36e0ad02b948db4800d29603177c6e60d52a5e30d2dc399aa855"},
+    {file = "plain_dev-0.0.1.tar.gz", hash = "sha256:c5103d67c6afa8053f3bfe4c65ae56632bff5bc336700127676c32155eed7db4"},
 ]
 
 [package.dependencies]
