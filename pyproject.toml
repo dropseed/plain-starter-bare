@@ -10,6 +10,7 @@ plainframework = "<1.0.0"
 
 [tool.poetry.group.dev.dependencies]
 "plain.dev" = "<1.0.0"
+"plain.pytest" = "<1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
