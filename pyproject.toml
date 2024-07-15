@@ -6,7 +6,7 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-plainframework = "<1.0.0"
+plain = "<1.0.0"
 
 [tool.poetry.group.dev.dependencies]
 "plain.dev" = "<1.0.0"
