@@ -1,17 +1,15 @@
-[tool.poetry]
+[project]
 name = "app"
-version = "0.0.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "plain<1.0.0",
+]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-plain = "<1.0.0"
-
-[tool.poetry.group.dev.dependencies]
-"plain.dev" = "<1.0.0"
-"plain.pytest" = "<1.0.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv]
+dev-dependencies = [
+    "plain-dev<1.0.0",
+    "plain-pytest<1.0.0",
+]
