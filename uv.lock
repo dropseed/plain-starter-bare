@@ -244,7 +244,7 @@ wheels = [
 
 [[package]]
 name = "plain-dev"
-version = "0.8.1"
+version = "0.8.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -254,9 +254,9 @@ dependencies = [
     { name = "psycopg", extra = ["binary"] },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/66/48/c6dc6583fb8376627a2db1bfbc34ba0a4aba52049f1c563c06891307552c/plain_dev-0.8.1.tar.gz", hash = "sha256:b9e7ac88c770acee515702b0cb0ac19540ed04817b52d7f0c46d8fe5e47c378d", size = 23138 }
+sdist = { url = "https://files.pythonhosted.org/packages/7c/2e/cc34aa429b54b7231d091552ff598e947953ea228a0c0bf43761a0e0ace6/plain_dev-0.8.2.tar.gz", hash = "sha256:9ce16e8c9e32e8fba31c09a153cfc51ff9ecaf5a852bc63ce464220276a97d56", size = 23195 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/05/31/83d4ffb953ff386cc7b0feff0d4899d9a2f154a8afb715d16435037f7b05/plain_dev-0.8.1-py3-none-any.whl", hash = "sha256:02d478f5763e4da08569acb0aa3114f1cca7fa65e24bf5afb8d37ef2a253a7d7", size = 30306 },
+    { url = "https://files.pythonhosted.org/packages/aa/80/6c2dd5abdaa7389e7314ba26de1f0e0f7204cecb7b367af55bf70fdd0f12/plain_dev-0.8.2-py3-none-any.whl", hash = "sha256:9c225e0a85102b0f11590b87f4ac500495746aa871416873cd12025da68f8b33", size = 30345 },
 ]
 
 [[package]]
