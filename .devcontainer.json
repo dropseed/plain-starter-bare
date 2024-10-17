@@ -12,12 +12,12 @@
         }
     },
     "portsAttributes": {
-        "8000": {
+        "8443": {
             "label": "Plain Dev",
             "onAutoForward": "openBrowserOnce"
         }
     },
     "forwardPorts": [
-        8000
+        8443
     ]
 }
