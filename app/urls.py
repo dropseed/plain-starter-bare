@@ -1,5 +1,5 @@
 from plain.urls import path
-from plain.views import View, TemplateView
+from plain.views import TemplateView, View
 
 
 class ExampleTemplateView(TemplateView):
