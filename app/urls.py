@@ -22,7 +22,7 @@ class ExamplePlaintextView(View):
 
 
 urlpatterns = [
-    path("json/", ExampleJsonView.as_view()),
-    path("text/", ExamplePlaintextView.as_view()),
-    path("", ExampleTemplateView.as_view()),
+    path("json/", ExampleJsonView),
+    path("text/", ExamplePlaintextView),
+    path("", ExampleTemplateView),
 ]
