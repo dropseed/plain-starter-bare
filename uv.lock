@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.12.0, <3.13"
 
 [[package]]
@@ -107,6 +108,15 @@ wheels = [
 ]
 
 [[package]]
+name = "inotify"
+version = "0.2.10"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "nose" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/35/cb/6d564f8a3f25d9516298dce151670d01e43a4b3b769c1c15f40453179cd5/inotify-0.2.10.tar.gz", hash = "sha256:974a623a338482b62e16d4eb705fb863ed33ec178680fc3e96ccdf0df6c02a07", size = 9905 }
+
+[[package]]
 name = "jinja2"
 version = "3.1.5"
 source = { registry = "https://pypi.org/simple" }
@@ -158,6 +168,15 @@ wheels = [
 ]
 
 [[package]]
+name = "nose"
+version = "1.3.7"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/58/a5/0dc93c3ec33f4e281849523a5a913fa1eea9a3068acfa754d44d88107a44/nose-1.3.7.tar.gz", hash = "sha256:f1bffef9cbc82628f6e7d7b40d7e255aefaa1adb6a1b1d26c69a8b79e6208a98", size = 280488 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/15/d8/dd071918c040f50fa1cf80da16423af51ff8ce4a0f2399b7bf8de45ac3d9/nose-1.3.7-py3-none-any.whl", hash = "sha256:9ff7c6cc443f8c51994b34a667bbcf45afd6d945be7477b52e97516fd17c53ac", size = 154731 },
+]
+
+[[package]]
 name = "packaging"
 version = "24.2"
 source = { registry = "https://pypi.org/simple" }
@@ -168,38 +187,39 @@ wheels = [
 
 [[package]]
 name = "plain"
-version = "0.21.5"
+version = "0.22.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
     { name = "jinja2" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/84/97/495bd8cce05475279708d5afa028127ede1dfaee9b5a5566b0c0e1c6667d/plain-0.21.5.tar.gz", hash = "sha256:37cf0976b887ccc245104f90e0613f8c45b67f8618c9200fb066b47ff1a9bd5b", size = 178024 }
+sdist = { url = "https://files.pythonhosted.org/packages/00/90/1663312ddb256fbac4e73377dca3915b5848d4a9fcd91ebb6e1030227f9b/plain-0.22.0.tar.gz", hash = "sha256:d214579d125f29bc6171ff69cdfee56b72c85f53edc5f7632238ce9bf0424bcb", size = 36015430 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0b/34/2c608535d58c210163355f1d37c1090f0fff91aea1a28748be24e3a4a31c/plain-0.21.5-py3-none-any.whl", hash = "sha256:f1c8013f082d71cca207a925bf66d3d45c04a67fc6290148403d911614607815", size = 217453 },
+    { url = "https://files.pythonhosted.org/packages/ae/83/6874e47a2f3c30d407fcccab4705df2cb480045bf6ead3ef7e9174a1f7e2/plain-0.22.0-py3-none-any.whl", hash = "sha256:3952fd093155f7bd600817bd31f7d4dd63725c45729662f235bdc91058c45580", size = 291020 },
 ]
 
 [[package]]
 name = "plain-dev"
-version = "0.19.3"
+version = "0.20.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
     { name = "gunicorn" },
+    { name = "inotify" },
     { name = "plain" },
     { name = "psycopg", extra = ["binary"] },
     { name = "python-dotenv" },
     { name = "requests" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/fb/58/53261778b00d72845c5b08b50425a055a66f52ea2d93ab8ae04e3f39724c/plain_dev-0.19.3.tar.gz", hash = "sha256:c82127acdfe2cab6471df6023abe5f255e5ee00da24de26909bcdc80399d1d85", size = 40156 }
+sdist = { url = "https://files.pythonhosted.org/packages/42/71/d761bcb2b76ca28640ca9c2465f77c09c9f81d24ca0ec2eced858abd804a/plain_dev-0.20.0.tar.gz", hash = "sha256:887c57f70f38f5834baac05aa15ce74884c0d9825e7c1604a5d7f784f6cba450", size = 24790 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/db/06/6e63dc6d679d312032955b8c754f163ef145cb19645774c897f8fc104d4a/plain_dev-0.19.3-py3-none-any.whl", hash = "sha256:183057df9f8a0a78509e52fb13525cf810e0076779ddebcac30b1b143c6cf24f", size = 32941 },
+    { url = "https://files.pythonhosted.org/packages/db/bf/d00d15c5836d514736d9e3b8a0b399a376b53c275d1f32a2ecf1bca68b8d/plain_dev-0.20.0-py3-none-any.whl", hash = "sha256:08f11d912f8b13cfed0801b61d27a0475787b4d76f092df79241eef8992342c4", size = 30192 },
 ]
 
 [[package]]
 name = "plain-pytest"
-version = "0.3.2"
+version = "0.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -207,9 +227,9 @@ dependencies = [
     { name = "pytest" },
     { name = "python-dotenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d5/ab/7b0661f485c89946fcb4a14b1bcac2e0791b03dc573796ace89075b42f78/plain_pytest-0.3.2.tar.gz", hash = "sha256:d9617ecb0364aed42eedc6a8ed4835a1de4593073d9b012f94af209c513a8e22", size = 9332 }
+sdist = { url = "https://files.pythonhosted.org/packages/91/3e/0aa3d34859bbc7b2e6e92a3511615bec459f77c978840584d981cd9d6c9d/plain_pytest-0.4.0.tar.gz", hash = "sha256:df76240fcd1e974726042b6fa84d598b89b51d327b14dadfbece27298c1416dc", size = 3782 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/24/88/b136e984b07ef9fc79d4e0d2fca8d4ba7f8c40490b00c663f336f6c265dd/plain_pytest-0.3.2-py3-none-any.whl", hash = "sha256:ccef17f66d5cf75fcc47b19f62ab9bbb7f689ea46220793b74a7e35239ac3281", size = 4452 },
+    { url = "https://files.pythonhosted.org/packages/0a/ad/a3361b2557bb650d72b730b89aa7e890f75b6f51f61092eae428196f6d87/plain_pytest-0.4.0-py3-none-any.whl", hash = "sha256:a24725472c13eecf3002f3b799bc949387445ea74801064c346ff4fdc07bbca4", size = 4449 },
 ]
 
 [[package]]

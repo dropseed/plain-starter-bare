@@ -1,4 +1,4 @@
-from plain.urls import path
+from plain.urls import path, RouterBase, register_router
 from plain.views import TemplateView, View
 
 
@@ -21,8 +21,10 @@ class ExamplePlaintextView(View):
         return "Hello World!"
 
 
-urlpatterns = [
-    path("json/", ExampleJsonView),
-    path("text/", ExamplePlaintextView),
-    path("", ExampleTemplateView),
-]
+@register_router
+class Router(RouterBase):
+    urls = [
+        path("json/", ExampleJsonView),
+        path("text/", ExamplePlaintextView),
+        path("", ExampleTemplateView),
+    ]
