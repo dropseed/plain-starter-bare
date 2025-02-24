@@ -23,6 +23,7 @@ class ExamplePlaintextView(View):
 
 @register_router
 class Router(RouterBase):
+    namespace = ""
     urls = [
         path("json/", ExampleJsonView),
         path("text/", ExamplePlaintextView),
