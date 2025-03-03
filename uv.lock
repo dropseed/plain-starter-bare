@@ -187,20 +187,20 @@ wheels = [
 
 [[package]]
 name = "plain"
-version = "0.25.0"
+version = "0.29.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
     { name = "jinja2" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/28/f1/3ccdf39615303b7ca752b0c84a41e8f4e1cd63d67ac06f3ef0211b0458e4/plain-0.25.0.tar.gz", hash = "sha256:963960d322350b5870792ddd592122d856602d83c741bab381034cdd0417561d", size = 155858 }
+sdist = { url = "https://files.pythonhosted.org/packages/65/19/ef5b99dfaf5ac341edf216b2a95d596b05d8a000b5efe563f6f59a03ac7c/plain-0.29.0.tar.gz", hash = "sha256:6d3a415c2a0237c1de88ade5c4f5dbd49b9af40208d5596e2b0ea1733a34a5ba", size = 151947 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/56/b7/4bbf64ba13c492674a4d52186a6646409adb8cbcb4c6c1e941313aba1f4a/plain-0.25.0-py3-none-any.whl", hash = "sha256:2b27d5beba3eeb5ba5d08d66c5ba18ed7f2bd405316777f3dc2e13157c8c5620", size = 200083 },
+    { url = "https://files.pythonhosted.org/packages/18/6d/270cb6afba62de56e0cb3076da1f0471101fdf4afd8df4d8799236a8fcf8/plain-0.29.0-py3-none-any.whl", hash = "sha256:d0eafbbcc95a8d1d013eb6b222bacd69ee4fbeaa33e3f6362fc7d352388a5818", size = 195999 },
 ]
 
 [[package]]
 name = "plain-dev"
-version = "0.21.0"
+version = "0.23.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -212,14 +212,14 @@ dependencies = [
     { name = "requests" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/70/a6/275b4db3646676fa99b8d52538b1548b6d7da9150ac8b4b366aee5e89393/plain_dev-0.21.0.tar.gz", hash = "sha256:402504cc1a2b64000e15875c0954b066c53a4d0f7a098a48f9abae4727ddd6f3", size = 22500 }
+sdist = { url = "https://files.pythonhosted.org/packages/1b/c2/1560c1a87f7069b086b83720898b0ed4365802ed7cbdf97cefb42fc27170/plain_dev-0.23.0.tar.gz", hash = "sha256:1e8c4dab21ddec43a69cced545a14196344609f77f733762b534963650f6dd7f", size = 22808 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e9/ac/448450cc24fa0040ce808c86fcffb2f15331a35d0dcce7a77cfbe3d5685f/plain_dev-0.21.0-py3-none-any.whl", hash = "sha256:2ba6c9d452046ff675aebd417baa93d2ccbe1d7daa0bf95792cec1ca292a1195", size = 30352 },
+    { url = "https://files.pythonhosted.org/packages/61/50/199a9de5aa78e949db255821992192561cd84b9a5180d188377a4f12de48/plain_dev-0.23.0-py3-none-any.whl", hash = "sha256:358b6f69aa5d910f1b33d6f7efd5c8a42ded4cf1b975746be4cd30e633990924", size = 30643 },
 ]
 
 [[package]]
 name = "plain-pytest"
-version = "0.4.1"
+version = "0.6.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -227,9 +227,9 @@ dependencies = [
     { name = "pytest" },
     { name = "python-dotenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e5/43/fa6ca69def226fc72a3d28faae6261b254da8b8d64c6185275bee6bb6035/plain_pytest-0.4.1.tar.gz", hash = "sha256:82f94b139c4165273547f6f2c64442fb77ae9f26918c92a6f4aeb55532bedae2", size = 2897 }
+sdist = { url = "https://files.pythonhosted.org/packages/22/ec/e3fdcfa16cee5626e20a6ad782865f7aca50a18da0c5e44ac38ffe5d668c/plain_pytest-0.6.0.tar.gz", hash = "sha256:9555988dcbad89ea0496d29fb4c02cea33790f1dfe8d0b1e86c5de1aab4e5031", size = 2995 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/55/29/fe8e819045be1c983bfb195e9283558b6379d0176de8a2307ff8677cf6c1/plain_pytest-0.4.1-py3-none-any.whl", hash = "sha256:d4afca89f203fa4de9d29e098dd6b2d9f640402ac3f2b8245804ad8e07a44ad4", size = 4450 },
+    { url = "https://files.pythonhosted.org/packages/2e/8b/b98152709cb609ef25b74bd49e611e303901aa5fc9dab632624b7b07233d/plain_pytest-0.6.0-py3-none-any.whl", hash = "sha256:a1e5743a324e204ca7118e4193c07a7db3f3d1f01f9555b8f9c4cb2114f61e87", size = 4781 },
 ]
 
 [[package]]
@@ -288,7 +288,7 @@ wheels = [
 
 [[package]]
 name = "pytest"
-version = "8.3.4"
+version = "8.3.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colorama", marker = "sys_platform == 'win32'" },
@@ -296,9 +296,9 @@ dependencies = [
     { name = "packaging" },
     { name = "pluggy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/05/35/30e0d83068951d90a01852cb1cef56e5d8a09d20c7f511634cc2f7e0372a/pytest-8.3.4.tar.gz", hash = "sha256:965370d062bce11e73868e0335abac31b4d3de0e82f4007408d242b4f8610761", size = 1445919 }
+sdist = { url = "https://files.pythonhosted.org/packages/ae/3c/c9d525a414d506893f0cd8a8d0de7706446213181570cdbd766691164e40/pytest-8.3.5.tar.gz", hash = "sha256:f4efe70cc14e511565ac476b57c279e12a855b11f48f212af1080ef2263d3845", size = 1450891 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/11/92/76a1c94d3afee238333bc0a42b82935dd8f9cf8ce9e336ff87ee14d9e1cf/pytest-8.3.4-py3-none-any.whl", hash = "sha256:50e16d954148559c9a74109af1eaf0c945ba2d8f30f0a3d3335edde19788b6f6", size = 343083 },
+    { url = "https://files.pythonhosted.org/packages/30/3d/64ad57c803f1fa1e963a7946b6e0fea4a70df53c1a7fed304586539c2bac/pytest-8.3.5-py3-none-any.whl", hash = "sha256:c69214aa47deac29fad6c2a4f590b9c4a9fdb16a403176fe154b79c0b4d4d820", size = 343634 },
 ]
 
 [[package]]
