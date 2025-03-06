@@ -1,4 +1,4 @@
-from plain.urls import path, RouterBase, register_router
+from plain.urls import path, Router
 from plain.views import TemplateView, View
 
 
@@ -21,8 +21,7 @@ class ExamplePlaintextView(View):
         return "Hello World!"
 
 
-@register_router
-class Router(RouterBase):
+class AppRouter(Router):
     namespace = ""
     urls = [
         path("json/", ExampleJsonView),
