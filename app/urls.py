@@ -16,15 +16,9 @@ class ExampleJsonView(View):
         return {"message": "Hello World!"}
 
 
-class ExamplePlaintextView(View):
-    def get(self):
-        return "Hello World!"
-
-
 class AppRouter(Router):
     namespace = ""
     urls = [
         path("json/", ExampleJsonView),
-        path("text/", ExamplePlaintextView),
         path("", ExampleTemplateView),
     ]
