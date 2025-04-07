@@ -200,7 +200,7 @@ wheels = [
 
 [[package]]
 name = "plain-dev"
-version = "0.27.0"
+version = "0.27.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -212,9 +212,9 @@ dependencies = [
     { name = "requests" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b9/d2/920af4b91c6b57dfe49ef06afd213024f296c223ee428e3f3a586f79b957/plain_dev-0.27.0.tar.gz", hash = "sha256:ec55f6cfb7688a41e65f01820d2849ab5335e8759e6f1ffe25904d9d36e81956", size = 23452 }
+sdist = { url = "https://files.pythonhosted.org/packages/3e/70/9099ba331e5d50f9bd3af9e07f8f4d09bcb75e5c2f8aec53af740f74e3e4/plain_dev-0.27.1.tar.gz", hash = "sha256:898070daa2b0f6fc4581faad61ac823cb5bbe3b97869362a1dfcc9a4ea224130", size = 23509 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/77/b1/e19fc08f73dc426f0d69f623e8724f8ba2767d3b8478b77e6321557c1b79/plain_dev-0.27.0-py3-none-any.whl", hash = "sha256:edd7f3b80efd08da15fad9882025cd8f4a530f8da595c2582da81dbd575ae244", size = 31016 },
+    { url = "https://files.pythonhosted.org/packages/42/43/0ab8fa63db1c06a7668127a69eb0b27910f00b3f099d277804db4d65cf73/plain_dev-0.27.1-py3-none-any.whl", hash = "sha256:f558c93f2da1fbaf46f3e7f7312992e009d2090ea42adf06c0db7c565763c4d5", size = 31096 },
 ]
 
 [[package]]
@@ -340,11 +340,11 @@ wheels = [
 
 [[package]]
 name = "typing-extensions"
-version = "4.13.0"
+version = "4.13.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/0e/3e/b00a62db91a83fff600de219b6ea9908e6918664899a2d85db222f4fbf19/typing_extensions-4.13.0.tar.gz", hash = "sha256:0a4ac55a5820789d87e297727d229866c9650f6521b64206413c4fbada24d95b", size = 106520 }
+sdist = { url = "https://files.pythonhosted.org/packages/76/ad/cd3e3465232ec2416ae9b983f27b9e94dc8171d56ac99b345319a9475967/typing_extensions-4.13.1.tar.gz", hash = "sha256:98795af00fb9640edec5b8e31fc647597b4691f099ad75f469a2616be1a76dff", size = 106633 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e0/86/39b65d676ec5732de17b7e3c476e45bb80ec64eb50737a8dce1a4178aba1/typing_extensions-4.13.0-py3-none-any.whl", hash = "sha256:c8dd92cc0d6425a97c18fbb9d1954e5ff92c1ca881a309c45f06ebc0b79058e5", size = 45683 },
+    { url = "https://files.pythonhosted.org/packages/df/c5/e7a0b0f5ed69f94c8ab7379c599e6036886bffcde609969a5325f47f1332/typing_extensions-4.13.1-py3-none-any.whl", hash = "sha256:4b6cf02909eb5495cfbc3f6e8fd49217e6cc7944e145cdda8caa3734777f9e69", size = 45739 },
 ]
 
 [[package]]
