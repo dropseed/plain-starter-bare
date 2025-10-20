@@ -8,8 +8,8 @@ dependencies = [
     "plain",
 ]
 
-[tool.uv]
-dev-dependencies = [
+[dependency-groups]
+dev = [
     "plain-dev",
     "plain-pytest",
 ]
