@@ -301,7 +301,7 @@ wheels = [
 
 [[package]]
 name = "plain"
-version = "0.81.0"
+version = "0.90.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -310,14 +310,14 @@ dependencies = [
     { name = "opentelemetry-semantic-conventions" },
     { name = "watchfiles" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4e/37/c91ca0b6d1a284b263cf1e0f806571f7f81da49a69ff5e35955fb9fda2ee/plain-0.81.0.tar.gz", hash = "sha256:02a32ad579a6091d3f1b5f57779aaa397d3148fc219074cd506aeb7ebc5c5868", size = 224413, upload-time = "2025-10-22T21:12:36.548Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/24/31/1a96d5695bb008460a43815962b52fa320103148552cc6502b6e101a80c5/plain-0.90.0.tar.gz", hash = "sha256:4237aaaa5a72585fbc0908ade9401149465e60566ef6a693a6cc2679cae2e766", size = 233052, upload-time = "2025-11-20T22:20:20.434Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5d/cf/0b148fbb2d01f76c1f6165ff5866280217524e640609436c32cf96e2cfd7/plain-0.81.0-py3-none-any.whl", hash = "sha256:bc4db363824dc3c83a5d7ad014cd48c4b997fbf28fb96bb039474b3173a71764", size = 291067, upload-time = "2025-10-22T21:12:34.974Z" },
+    { url = "https://files.pythonhosted.org/packages/19/98/df6dd4b9b6cfd1922e2a78ac8515c2ad3c511e3687f0e56677d6ce983bb6/plain-0.90.0-py3-none-any.whl", hash = "sha256:a8cc50dd3a7505352e581e78b00d519c8b7ced5535cf509e5134e0855bb7ac4e", size = 300264, upload-time = "2025-11-20T22:20:19.418Z" },
 ]
 
 [[package]]
 name = "plain-dev"
-version = "0.43.1"
+version = "0.47.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -327,14 +327,14 @@ dependencies = [
     { name = "requests" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b6/a7/809a887df333af099d031d713f0ac8b1bd9e5f4617493267eb2c8aca5e39/plain_dev-0.43.1.tar.gz", hash = "sha256:0f0bc1ef594e15e3ec5e23c46d6bb5ee29eebf893deb2e56a7edfa8b0145e45d", size = 25793, upload-time = "2025-10-27T21:10:50.987Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/36/55/1e92d97debffde965360d49b4f010815c309fdbad6e3ca973da778f4446c/plain_dev-0.47.1.tar.gz", hash = "sha256:c78005585f8d78ddd628593fdaf5993dc01c0ceea8344a1554a5031c9a8b7473", size = 27268, upload-time = "2025-11-17T23:31:40.464Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3b/dc/7a5c76bd7ef43931ef2f11c7fd9b3b87202c3eb1a1edf604ac112cb179a2/plain_dev-0.43.1-py3-none-any.whl", hash = "sha256:9d0c4193ffd507b345f0f71fc9b47987f3dc13254676be2414b1d92a31edb4ca", size = 34869, upload-time = "2025-10-27T21:10:50.104Z" },
+    { url = "https://files.pythonhosted.org/packages/12/e3/507ca955d5443e667e3bb8a8b8c54f40b3e35c4d93ee77cbdcec8b01f1ae/plain_dev-0.47.1-py3-none-any.whl", hash = "sha256:dd57042bd2fb58ef59c79a3bcf8340994c063a8f79d1c1a697158f3192880ba4", size = 36419, upload-time = "2025-11-17T23:31:39.607Z" },
 ]
 
 [[package]]
 name = "plain-pytest"
-version = "0.13.0"
+version = "0.13.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -343,9 +343,9 @@ dependencies = [
     { name = "pytest" },
     { name = "python-dotenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/18/08/64e321034ffe69a6013829f656a27dcd7c1f1d7ff7947ab0c8cebdc9589d/plain_pytest-0.13.0.tar.gz", hash = "sha256:fa69369c0a8d2dbd14cbb8c10a396b068b4a6fda15f467d85a8e907e42533b81", size = 7416, upload-time = "2025-10-18T02:17:22.031Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/20/35/72cdb1a9f6f702e884fda49c62da5757b7f8040b5c138fd0fb25ee08fa4d/plain_pytest-0.13.2.tar.gz", hash = "sha256:3428f9b2acd73afc8c62c0faf0c3d5baa47199f3327723a0c91ac219de629d50", size = 7540, upload-time = "2025-11-17T23:32:05.003Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1a/c8/b1f02560cc9d7d51716a47abf88473143ffd8e0537a07afdfc9a382bd4fa/plain_pytest-0.13.0-py3-none-any.whl", hash = "sha256:26a0f3e42d5b7482b729ea47f5e5fb39dfa35c639729fe55455ab1bfb35440b2", size = 10490, upload-time = "2025-10-18T02:17:20.953Z" },
+    { url = "https://files.pythonhosted.org/packages/e9/ed/401cc0daa3522d8073403717e047bd24209d6fccdbc0b0fa04e82bdc6742/plain_pytest-0.13.2-py3-none-any.whl", hash = "sha256:6f1ff249d8a7c14fd78cc36e8933a7184e9800c871a28ab649e43329889f0b94", size = 10621, upload-time = "2025-11-17T23:32:03.173Z" },
 ]
 
 [[package]]
