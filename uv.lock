@@ -301,7 +301,7 @@ wheels = [
 
 [[package]]
 name = "plain"
-version = "0.90.0"
+version = "0.98.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -310,14 +310,13 @@ dependencies = [
     { name = "opentelemetry-semantic-conventions" },
     { name = "watchfiles" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/24/31/1a96d5695bb008460a43815962b52fa320103148552cc6502b6e101a80c5/plain-0.90.0.tar.gz", hash = "sha256:4237aaaa5a72585fbc0908ade9401149465e60566ef6a693a6cc2679cae2e766", size = 233052, upload-time = "2025-11-20T22:20:20.434Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/19/98/df6dd4b9b6cfd1922e2a78ac8515c2ad3c511e3687f0e56677d6ce983bb6/plain-0.90.0-py3-none-any.whl", hash = "sha256:a8cc50dd3a7505352e581e78b00d519c8b7ced5535cf509e5134e0855bb7ac4e", size = 300264, upload-time = "2025-11-20T22:20:19.418Z" },
+    { url = "https://files.pythonhosted.org/packages/86/e8/84d0cdf3e605f61cc89078e21f4760c2ae02e9fa3abb43dc24e6758f5550/plain-0.98.1-py3-none-any.whl", hash = "sha256:017672e9e5ccc1621b5e013d5da63657955df0604827e8da9489a154bfa86651", size = 327855, upload-time = "2026-01-14T03:03:45.414Z" },
 ]
 
 [[package]]
 name = "plain-dev"
-version = "0.47.1"
+version = "0.51.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -327,14 +326,14 @@ dependencies = [
     { name = "requests" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/36/55/1e92d97debffde965360d49b4f010815c309fdbad6e3ca973da778f4446c/plain_dev-0.47.1.tar.gz", hash = "sha256:c78005585f8d78ddd628593fdaf5993dc01c0ceea8344a1554a5031c9a8b7473", size = 27268, upload-time = "2025-11-17T23:31:40.464Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/27/30/6880e1c1a575d8ea60f7a3ed07a4d2d66298bcb757fb65c3de5781bf316c/plain_dev-0.51.0.tar.gz", hash = "sha256:39e6a196eb1e1dd43d6ea5933d56c24432297965af586c9d4f4821834c4a4335", size = 29368, upload-time = "2026-01-14T02:49:11.461Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/12/e3/507ca955d5443e667e3bb8a8b8c54f40b3e35c4d93ee77cbdcec8b01f1ae/plain_dev-0.47.1-py3-none-any.whl", hash = "sha256:dd57042bd2fb58ef59c79a3bcf8340994c063a8f79d1c1a697158f3192880ba4", size = 36419, upload-time = "2025-11-17T23:31:39.607Z" },
+    { url = "https://files.pythonhosted.org/packages/bd/77/a6633dcb925aa8856cf67e654c4d19eba1d6945e10338de387151a849f69/plain_dev-0.51.0-py3-none-any.whl", hash = "sha256:66b81d633f1f8b1ae7440bfaa9216ab4b93906edd25d7838e9a13ac13fea8366", size = 38985, upload-time = "2026-01-14T02:49:10.081Z" },
 ]
 
 [[package]]
 name = "plain-pytest"
-version = "0.13.2"
+version = "0.15.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -343,9 +342,9 @@ dependencies = [
     { name = "pytest" },
     { name = "python-dotenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/20/35/72cdb1a9f6f702e884fda49c62da5757b7f8040b5c138fd0fb25ee08fa4d/plain_pytest-0.13.2.tar.gz", hash = "sha256:3428f9b2acd73afc8c62c0faf0c3d5baa47199f3327723a0c91ac219de629d50", size = 7540, upload-time = "2025-11-17T23:32:05.003Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/dd/d0/36da86a93bba6a7c599400b3cc3e28653a54fc18304ee8fdbcd4a1182512/plain_pytest-0.15.0.tar.gz", hash = "sha256:1d1c7182f65a6dde23076506d40d6acbc231fb1c617146b5e81d6b4075aaff40", size = 8694, upload-time = "2026-01-14T02:49:45.819Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e9/ed/401cc0daa3522d8073403717e047bd24209d6fccdbc0b0fa04e82bdc6742/plain_pytest-0.13.2-py3-none-any.whl", hash = "sha256:6f1ff249d8a7c14fd78cc36e8933a7184e9800c871a28ab649e43329889f0b94", size = 10621, upload-time = "2025-11-17T23:32:03.173Z" },
+    { url = "https://files.pythonhosted.org/packages/64/00/619058720f3ef5d2bc45dcedb0625aef50067300d01e262e198c542ec52c/plain_pytest-0.15.0-py3-none-any.whl", hash = "sha256:3aa81e1f44c7cb90d30cafb0f34db664e628b2b9a544e3ffb35485a3833fa7ab", size = 13055, upload-time = "2026-01-14T02:49:44.992Z" },
 ]
 
 [[package]]
