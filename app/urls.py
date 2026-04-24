@@ -1,3 +1,4 @@
+from plain.http import JsonResponse
 from plain.urls import path, Router
 from plain.views import TemplateView, View
 
@@ -13,7 +14,7 @@ class ExampleTemplateView(TemplateView):
 
 class ExampleJsonView(View):
     def get(self):
-        return {"message": "Hello World!"}
+        return JsonResponse({"message": "Hello World!"})
 
 
 class AppRouter(Router):
