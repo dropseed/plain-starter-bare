@@ -1,6 +1,7 @@
 from plain.http import JsonResponse
+from plain.templates.views import TemplateView
 from plain.urls import path, Router
-from plain.views import TemplateView, View
+from plain.views import View
 
 
 class ExampleTemplateView(TemplateView):
@@ -20,6 +21,6 @@ class ExampleJsonView(View):
 class AppRouter(Router):
     namespace = ""
     urls = [
-        path("json/", ExampleJsonView),
+        path("json", ExampleJsonView),
         path("", ExampleTemplateView),
     ]
