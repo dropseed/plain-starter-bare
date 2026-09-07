@@ -20,7 +20,7 @@ class ExampleJsonView(View):
 
 class AppRouter(Router):
     namespace = ""
-    urls = [
+    urls = (
         path("json", ExampleJsonView),
         path("", ExampleTemplateView),
-    ]
+    )
